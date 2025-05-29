@@ -3073,7 +3073,7 @@ __metadata:
     use-immer: 0.10.0
     uuid: 9.0.1
     vm-browserify: 1.1.2
-    webpack: 5.98.0
+    webpack: 5.99.9
     zustand: 4.4.1
   languageName: unknown
   linkType: soft
@@ -3129,8 +3129,8 @@ __metadata:
     tinycolor2: 1.6.0
     tss-react: 4.9.2
     utif: 3.1.0
-    webpack: 5.98.0
-    webpack-dev-server: 5.2.0
+    webpack: 5.99.9
+    webpack-dev-server: 5.2.1
   languageName: unknown
   linkType: soft
 
@@ -3153,8 +3153,8 @@ __metadata:
     react: 18.3.1
     react-dom: 18.3.1
     tss-react: 4.9.3
-    webpack: 5.98.0
-    webpack-dev-server: 5.2.0
+    webpack: 5.99.9
+    webpack-dev-server: 5.2.1
   languageName: unknown
   linkType: soft
 
@@ -5027,7 +5027,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express-serve-static-core@npm:^4.17.33":
+"@types/express-serve-static-core@npm:^4.17.21, @types/express-serve-static-core@npm:^4.17.33":
   version: 4.19.6
   resolution: "@types/express-serve-static-core@npm:4.19.6"
   dependencies:
@@ -5238,7 +5238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.12, @types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
+"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.12, @types/json-schema@npm:^7.0.15, @types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 97ed0cb44d4070aecea772b7b2e2ed971e10c81ec87dd4ecc160322ffa55ff330dace1793489540e3e318d90942064bb697cc0f8989391797792d919737b3b98
@@ -7292,8 +7292,8 @@ __metadata:
     mathjs: 11.11.1
     react: 18.3.1
     react-dom: 18.2.0
-    webpack: 5.98.0
-    webpack-dev-server: 5.2.0
+    webpack: 5.99.9
+    webpack-dev-server: 5.2.1
   languageName: unknown
   linkType: soft
 
@@ -14124,9 +14124,9 @@ __metadata:
     tslib: 2.6.2
     typescript: 5.3.3
     vm-browserify: 1.1.2
-    webpack: 5.98.0
+    webpack: 5.99.9
     webpack-cli: 6.0.1
-    webpack-dev-server: 5.2.0
+    webpack-dev-server: 5.2.1
     webpack-hot-middleware: 2.26.0
   languageName: unknown
   linkType: soft
@@ -18215,6 +18215,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"schema-utils@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "schema-utils@npm:4.3.2"
+  dependencies:
+    "@types/json-schema": ^7.0.9
+    ajv: ^8.9.0
+    ajv-formats: ^2.1.1
+    ajv-keywords: ^5.1.0
+  checksum: d798b341ffa1371f8471629e8861af3aa99e8e15b89da2c0db28c5a80a02ee8c6ffc7daefbe28a2b8c1bc8e3f3e02d028775145d7ab3d9d1a413a9651a835466
+  languageName: node
+  linkType: hard
+
 "screenfull@npm:^5.1.0":
   version: 5.2.0
   resolution: "screenfull@npm:5.2.0"
@@ -20599,8 +20611,8 @@ __metadata:
     "@types/serve-handler": ^6
     playwright: 1.49.1
     serve-handler: 6.1.6
-    webpack: 5.98.0
-    webpack-dev-server: 5.2.0
+    webpack: 5.99.9
+    webpack-dev-server: 5.2.1
   languageName: unknown
   linkType: soft
 
@@ -20692,13 +20704,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:5.2.0":
-  version: 5.2.0
-  resolution: "webpack-dev-server@npm:5.2.0"
+"webpack-dev-server@npm:5.2.1":
+  version: 5.2.1
+  resolution: "webpack-dev-server@npm:5.2.1"
   dependencies:
     "@types/bonjour": ^3.5.13
     "@types/connect-history-api-fallback": ^1.5.4
     "@types/express": ^4.17.21
+    "@types/express-serve-static-core": ^4.17.21
     "@types/serve-index": ^1.9.4
     "@types/serve-static": ^1.15.5
     "@types/sockjs": ^0.3.36
@@ -20732,7 +20745,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 87b7acc194cfa3e5c95cd797bf1f0c2ffc8718bbc02e8f47777b9a861a6b7691f27c5138162ba2a9ac2c337d122e14f220342789c290027a3f9db44b4af104c9
+  checksum: cb96b182970dad1ea67ccca7b1c7a207ee0815c3b65218b08a8fad07df6a1854a2fed3588b17b06a99f28c999f4f391d551a42058cf02425ff7d0d21bfd2d27f
   languageName: node
   linkType: hard
 
@@ -20793,7 +20806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5, webpack@npm:5.98.0":
+"webpack@npm:5":
   version: 5.98.0
   resolution: "webpack@npm:5.98.0"
   dependencies:
@@ -20826,6 +20839,43 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 0de353c694bc4d5af810e4f4d4fd356271b21b2253583a9f618416b5fcbaf8db5a5487c12cc1379778d2a07d56382293334153af6e2ce59ded59488f08015fd1
+  languageName: node
+  linkType: hard
+
+"webpack@npm:5.99.9":
+  version: 5.99.9
+  resolution: "webpack@npm:5.99.9"
+  dependencies:
+    "@types/eslint-scope": ^3.7.7
+    "@types/estree": ^1.0.6
+    "@types/json-schema": ^7.0.15
+    "@webassemblyjs/ast": ^1.14.1
+    "@webassemblyjs/wasm-edit": ^1.14.1
+    "@webassemblyjs/wasm-parser": ^1.14.1
+    acorn: ^8.14.0
+    browserslist: ^4.24.0
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.17.1
+    es-module-lexer: ^1.2.1
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.11
+    json-parse-even-better-errors: ^2.3.1
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^4.3.2
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.3.11
+    watchpack: ^2.4.1
+    webpack-sources: ^3.2.3
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: 5fd25e64b8d5a31919087834af3678eaee62dbf8990024fb4c71584d4beb2c3e75ecbabbcc654fa2536e0aa7900172512c674c6650acd7088e534716faa8449d
   languageName: node
   linkType: hard
 
