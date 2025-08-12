@@ -45,7 +45,7 @@ jobs:
     name: ${{ matrix.config.name }} (${{ matrix.os }})
 
     steps:
-      - uses: actions/checkout@v4.1.1
+      - uses: actions/checkout@v5
         with:
           lfs: true
 
@@ -73,7 +73,7 @@ jobs:
     name: integration (ubuntu-latest)
 
     steps:
-      - uses: actions/checkout@v4.1.1
+      - uses: actions/checkout@v5
         with:
           lfs: true
 
